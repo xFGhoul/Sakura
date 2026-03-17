@@ -1233,10 +1233,10 @@ dependencies = [
 ]
 
 [[package]]
-name = "paste"
-version = "1.0.15"
+name = "pastey"
+version = "0.2.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "57c0d7b74b563b49d38dae00a0c37d4d6de9b432382b2892f0574ddcae73fd0a"
+checksum = "b867cad97c0791bbd3aaa6472142568c6c9e8f71937e98379f584cfb0cf35bec"
 
 [[package]]
 name = "percent-encoding"
@@ -1570,18 +1570,18 @@ dependencies = [
 
 [[package]]
 name = "rosu-mods"
-version = "0.3.1"
+version = "0.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "cdc002dd5c7baef181e98980615ef27df55f35ff291c088cb37e6a339f2777e1"
+checksum = "3dd5db7193071b635e7d95fc71a38ab59042bd2496e7ecc3088bdad07e6b4ff0"
 dependencies = [
- "paste",
+ "pastey",
  "serde",
 ]
 
 [[package]]
 name = "rosu-v2"
 version = "0.11.0"
-source = "git+https://github.com/MaxOhn/rosu-v2?branch=lazer#b76273633e8dd9ef21019b7331f0503f43a96349"
+source = "git+https://github.com/MaxOhn/rosu-v2?branch=lazer#520b2a5592bace5db4b6c4b1efeb1a61330f4e1d"
 dependencies = [
  "bytes",
  "dashmap",
