@@ -7,6 +7,6 @@ edition = "2024"
 crossterm = { version = "0.29.0", features = ["event-stream"] }
 futures = "0.3.31"
 ratatui = "0.30.0"
-tokio = { version = "1.49.0", features = ["full"] }
+tokio = { version = "1.51.0", features = ["full"] }
 color-eyre = "0.6.5"
 rosu-v2 = { git = "https://github.com/MaxOhn/rosu-v2", branch = "lazer", features = ["serialize"] }
